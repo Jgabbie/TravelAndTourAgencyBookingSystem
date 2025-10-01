@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* PACKAGE PAGE CSS*/
+
+.ant-menu-horizontal>.ant-menu-item {
+    padding: 0 16px !important;
+    margin: 2px 16px !important;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000 !important;
+    transition: all 0.3s ease;
+}
+
+.ant-menu-horizontal>.ant-menu-item:hover {
+    background-color: #e6f0ff !important;
+    color: #000000 !important;
+    border-radius: 10px;
+    padding: 0 16px !important;
+}
+
+.ant-menu-horizontal>.ant-menu-item::after {
+    display: none !important;
+}
+
+.ant-menu-horizontal>.ant-menu-item-selected {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.topbar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 5px;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.topbar .logo {
+    flex: 0 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2e5994;
+}
+
+.menu-wrap {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.logo {
+    margin-left: 15px;
+}
+
+.packagepage {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.packagepage-leftside {
+    position: relative;
+    width: 300px;
+    padding-left: 60px;
+    padding-top: 120px;
+}
+
+.packagespage-titleanddays {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.packagepage-leftside-img {
+    width: 600px;
+    height: 320px;
+    background-color: #009BFF;
+    border-radius: 10px;
+}
+
+.packagepage-leftside-description {
+    text-align: center;
+    width: 600px;
+}
+
+.packagepage-leftside-title {
+    display: block;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.packagepage-daysindicator-text {
+    color: white;
+    background-color: #009BFF;
+    white-space: nowrap;
+    padding: 10px 20px;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+
+
+.packagepage-rightside {
+    position: relative;
+    padding-left: 280px;
+    padding-top: 140px;
+}
+
+
+.packagepage-priceandbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.packagepage-rightside-pricetitle {
+    color: gray;
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.packagepage-rightside-priceperperson {
+    font-size: 24px;
+    color: gray;
+}
+
+.packagepage-rightside-tabs {
+    position: relative;
+    width: 600px;
+    height: 200px;
+}
+
+
+/* MODALS CSS */
+
+.datepackagedetailsmodal-dateandpackagedetails {
+    display: flex;
+    flex-direction: row;
+}
+
+.datepackagedetailsmodal-packageside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datepackagedetailsmodal-packageside-title {
+    font-size: 45px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.datepackagedetailsmodal-packageside-description {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.datepackagedetailsmodal-packageside-pricequantitytitles {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+.datepackagedetailsmodal-packagedetails {
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    gap: 110px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.20);
+    box-shadow: #000000;
+    border: 2px solid black;
+}
+
+.datepackagedetailsmodal-packagedetails-perperson {
+    font-size: 16px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+/* BOOKING SUMMARY MODAL */
+
+.bookingsummarymodal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookingsummarymodal-title {
+    font-size: 45px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.bookingsummarymodal-description {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.bookingsummarymodal-pricequantity-titles {
+    display: flex;
+    flex-direction: row;
+    gap: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+.bookingsummarymodal-pricequantity-values {
+    display: flex;
+    flex-direction: row;
+    gap: 445px;
+    margin: 0;
+    padding: 0;
+}
+
+.bookingsummarymodal-pricequantity-titles p {
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.bookingsummarymodal-pricequantity-values p {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.bookingsummarymodal-description {
+    font-size: 16px;
+}
+
+.bookingsummarymodal-pricequantity-totaltext {
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.bookingsummarymodal-pricequantity-totalprice {
+    font-size: 45px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 500px;
+    color: #000000;
+    text-align: right;
+}
+
+
+
+/* CHECKOUT MODAL */
+
+.checkoutmodal-title {
+    font-size: 45px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.checkoutmodal-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* PAYMENT PROCESS MODAL */
+
+.paymentprocessmodal-title {
+    font-size: 45px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* CONFIRM PAYMENT MODAL */
+
+.confirmpaymentmodal-title {
+    font-size: 45px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.confirmpaymentmodal-itemtotal-titles {
+    display: flex;
+    flex-direction: row;
+    gap: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+.confirmpaymentmodal-itemtotal-values {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.confirmpaymentmodal-itemtotal-item {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.confirmpaymentmodal-itemtotal-titles p {
+    color: gray;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.confirmpaymentmodal-itemtotal-valuesquantity {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.confirmpaymentmodal-itemtotal-valuesprice {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    margin-left: 170px;
+}
+
+
+/* BOOKING SUCCESSFUL MODAL */
+
+.bookingsuccessfulmodal-title {
+    font-size: 45px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.bookingsuccessfulmodal-columnone {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    padding-left: 90px;
+}
+
+.bookingsuccessfulmodal-columntwo {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.bookingsuccessfulmodal-table {
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bookingsuccessfulmodal-columnone p {
+    font-size: 20px;
+    color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+.bookingsuccessfulmodal-columntwo p {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}

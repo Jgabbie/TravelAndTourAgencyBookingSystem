@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.ant-anchor-link-title {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #2e5994;
+}
+
+.ant-anchor-link-title:hover {
+  background-color: #e6f0ff;
+  color: #fff;
+}
+
+
+.ant-anchor-link-active {
+  color: #2e5994;
+  font-weight: bold;
+}
+
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.topbar .logo {
+  flex: 0 0 auto;
+  margin-left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2e5994;
+}
+
+.anchor-wrap {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: visible;
+  padding-right: 8px;
+}
+
+
+.top-anchor .ant-anchor-wrapper,
+.top-anchor .ant-anchor-wrapper-horizontal,
+.top-anchor .ant-anchor {
+  overflow: visible;
+  white-space: nowrap;
+  width: auto;
+  max-width: none;
+}
+
+.top-anchor .ant-anchor-link {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.top-anchor .ant-anchor-link-title {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+  white-space: nowrap;
+  color: #2e5994;
+  transition: background-color .2s, color .2s, transform .12s;
+}
+
+.ant-anchor-ink {
+  display: none;
+}

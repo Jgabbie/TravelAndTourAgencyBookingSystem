@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* SEARCH PAGE */
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item-group-title {
+    color: #3d3d3d;
+    font-weight: bold;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item-group {
+    border-bottom: 1px solid #f6f6f6;
+    font-size: 30px;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item {
+    padding-inline-start: 16px;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu-item.show-all {
+    text-align: center;
+    cursor: default;
+}
+
+.certain-category-search-dropdown .ant-select-dropdown-menu {
+    max-height: 300px;
+    width: 200px;
+}
+
+
+
+
+.searchpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchpagetitle {
+    padding-top: 140px;
+}
+
+.homepagetitle {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.homepagetitle-part2 {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 900px;
+}
+
+.homepagetitle-span1 {
+    color: #FFF300;
+}
+
+.homepagetitle-span2 {
+    color: #009BFF;
+}
+
+.dropdown-section {
+    position: relative;
+    background-color: white;
+    width: 750px;
+    backdrop-filter: blur(2px);
+    border-radius: 6px;
+    border: 2px solid white;
+    margin-top: 40px;
+    padding: 15px 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.searchpage-dropdown-titles {
+    display: flex;
+    padding: 0 40px;
+    gap: 278px;
+    margin: 0;
+}
+
+.searchpage-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 0 40px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.dropdowntitle-activities,
+.dropdowntitle-duration {
+    margin: 0;
+    padding: 0;
+    color: #757677;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.dropdown-activities,
+.dropdown-duration {
+    width: 300px;
+}
+
+.dropdowntext-activities,
+.dropdowntext-duration {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

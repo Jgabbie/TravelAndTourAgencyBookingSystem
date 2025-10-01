@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ABOUT PAGE */
+.aboutcompany-image {
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.aboutcompany {
+    position: absolute;
+    width: 300px;
+    left: 100px;
+    top: 900px;
+}
+
+.aboutcompany-title {
+    font-family: "Lora", serif;
+}
+
+.aboutcompany-title-part1 {
+    color: #FFF300;
+}
+
+.aboutcompany-title-part2 {
+    color: #009BFF;
+}
+
+.aboutcompany-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.companyservices {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    right: 80px;
+    top: 900px;
+}
+
+.companyservice-one,
+.companyservice-two,
+.companyservice-three,
+.companyservice-four {
+    width: 170px;
+}
+
+.companyservice-img {
+    height: 150px;
+    width: 150px;
+}
+
+.companyservices-title {
+    position: absolute;
+    top: 830px;
+    right: 800px;
+    font-family: "Lora", serif;
+    font-size: 26px;
+}
+
+.services-description {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.companyaccreditations {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    right: 80px;
+    top: 1300px;
+}
+
+.companyaccreditations-img {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+.companyaccreditations-title {
+    position: absolute;
+    top: 1210px;
+    right: 560px;
+    font-family: "Lora", serif;
+    font-size: 26px;
+}
